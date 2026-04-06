@@ -109,7 +109,6 @@ site/
 
 # Python (if you add Python tools later)
 __pycache__/
-*/__pycache__/
 *.py[cod]
 *$py.class
 *.so
@@ -186,9 +185,9 @@ answers/
 manim-projects/
 !manim-projects/README.md
 
-# learning-history
-learning-history/
-!learning-history/README.md
+# learning-history (only root directory)
+/learning-history/
+!/learning-history/README.md
 
 # lectures
 lectures/
