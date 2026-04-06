@@ -26,7 +26,7 @@ $RECYCLE.BIN/
 # Editor and IDE Files
 # VSCode
 .vscode/
-.claude/
+# .claude/
 .spec-workflow/
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -109,6 +109,7 @@ site/
 
 # Python (if you add Python tools later)
 __pycache__/
+*/__pycache__/
 *.py[cod]
 *$py.class
 *.so
@@ -170,33 +171,33 @@ PERSONAL_NOTES.md
 projects/*
 !projects/README.md
 
-# .iflow
-.iflow
+# .iflow/
+.iflow/
 
 # API keys
 settings/.env
 api_keys.json
 
 # answers
-answers
+answers/
 !answers/README.md
 
 # manim-projects
-manim-projects
+manim-projects/
 !manim-projects/README.md
 
 # learning-history
-learning-history
+learning-history/
 !learning-history/README.md
 
 # lectures
-lectures
+lectures/
 !lectures/README.md
 
 # tmp directory
-tmp
+tmp/
 !tmp/README.md
 
 # cache directory
-cache
+cache/
 !cache/README.md
